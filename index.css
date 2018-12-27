@@ -18,18 +18,17 @@ p{
 .containerimage{
     width:100%;
     margin:0 auto;
-    
-    background-image: url("bg-hero-desktop.svg");
+    background-image: url("bg-hero-desktop.svg")
 }
 .containerdark{
     width:100%;
     margin:0 auto;
-    border:1px solid black;
+    
     
 }
 .bgdark{
     background-color: rgb(55, 55, 113);
-    padding: 50px 0px;
+    padding: 49px 0px;
 }
 .rowheader{
     width:90%;
@@ -39,8 +38,6 @@ p{
 }
 .cards{
     width:90%;
-    
-    /*box-shadow: 5px 10px 8px #e1e0e0;*/
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
@@ -79,10 +76,10 @@ p{
     clear: both;
 }
 .hustleimage{
-    width:40%;
+    width:50%;
 }
 .headingbutton{
-    width:100%;
+    
     text-align: right;
 }
 .imagemain{
@@ -137,8 +134,6 @@ p{
 }
 .addr{
     width:90%;
-    
-    border:1px solid black;
     margin-left: 30px;
 }
 li{
@@ -171,4 +166,24 @@ li{
 }
 .space{
     margin-top:15%;
+}
+
+@media screen and (max-width:1400px){
+    .container{
+        width:1280px;
+    }
+}
+@media screen and (max-width:375px){
+    .container{
+        width:80%;
+    }
+    .twocolumns{
+        width:100%;
+    }
+    .twocolumns40{
+        width: 100%;
+    }
+    .twocolumns60{
+        width: 100%;
+    }
 }
