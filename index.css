@@ -2,34 +2,67 @@ body{
     margin:0;
     padding:0;
 }
+@import url('https://fonts.googleapis.com/css?family=Poppins:600');
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+p{
+    font-family: 'Open Sans',sans-serif;
+}
 .container{
     width:100%;
     margin:0 auto;
-    border:1px solid black;
+    
 }
 .containerimage{
     width:100%;
     margin:0 auto;
-    border:1px solid black;
+    
     background-image: url("bg-hero-desktop.svg");
 }
 .containerdark{
     width:100%;
     margin:0 auto;
     border:1px solid black;
+    
 }
-
-.row{
+.bgdark{
+    background-color: rgb(55, 55, 113);
+    padding: 50px 0px;
+}
+.rowheader{
     width:90%;
     
     margin:auto;
+    
+}
+.cards{
+    width:90%;
+    
+    /*box-shadow: 5px 10px 8px #e1e0e0;*/
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    margin:auto;
+}
+.row{
+    width:90%;
+    margin:auto;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.rowfooter{
+    width:90%;
+    margin:auto;
+    
 }
 .row:after{content:"";display:table;}
 .row:after{clear:both;}
 
 .twocolumns{
     width:49%;
-    border: 1px solid lawngreen;
+    
     float:left;
 }
 .twocolumns40{
@@ -84,15 +117,19 @@ body{
 }
 .smallrow{
     width:50%;
-    border:1px solid saddlebrown;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    padding:2%;
     margin:auto;
+    margin-bottom: -2%;
 }
 .readybox{
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .fourcolumns{
     width:24%;
-    border: 1px solid red;
+    
     float:left;
 }
 .iconleft{
@@ -120,4 +157,18 @@ li{
 .heading{
     /* font-size:20px; */
     font-weight: 600;
+}
+.about{
+    margin-top:25%;
+    margin-left:20%;
+}
+.image{
+    margin-left:20%;
+}
+.noline{
+    text-decoration: none;
+    color: black;
+}
+.space{
+    margin-top:15%;
 }
