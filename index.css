@@ -40,8 +40,9 @@ p{
     width:90%;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
+    box-shadow: 0px 0px 20px 2px #ccc;
     margin:auto;
+    border-radius: 15px;
 }
 .row{
     width:90%;
@@ -59,8 +60,10 @@ p{
 
 .twocolumns{
     width:49%;
-    
     float:left;
+}
+.right{
+    float:right;
 }
 .twocolumns40{
     width:45%;
@@ -114,10 +117,13 @@ p{
 }
 .smallrow{
     width:50%;
-    box-shadow: 3px 3px 5px 6px #ccc;
     padding:2%;
     margin:auto;
     margin-bottom: -2%;
+    box-shadow: 2px 0px 45px -15px #ccc;
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
 }
 .readybox{
     text-align: center;
@@ -126,7 +132,6 @@ p{
 }
 .fourcolumns{
     width:24%;
-    
     float:left;
 }
 .iconleft{
@@ -150,23 +155,25 @@ li{
     margin-top:20%;
 }
 .heading{
-    /* font-size:20px; */
+    
     font-weight: 600;
 }
 .about{
-    margin-top:25%;
-    margin-left:20%;
+    
+    
+    padding: 20%;
 }
 .image{
-    margin-left:20%;
+    padding:5%;
 }
 .noline{
     text-decoration: none;
     color: black;
 }
 .space{
-    margin-top:15%;
+    margin-top:18%;
 }
+
 
 @media screen and (max-width:1400px){
     .container{
@@ -179,11 +186,66 @@ li{
     }
     .twocolumns{
         width:100%;
+        float: right;
     }
     .twocolumns40{
         width: 100%;
     }
     .twocolumns60{
         width: 100%;
+        
+    }
+    .fourcolumns{
+        width:100%;
+    }
+    .buildheading{
+        text-align: center;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .rowheader{
+        margin-top:10%;
+    }
+    .hustleimage{
+        width: 40%;
+    }
+    .headingbutton{
+        margin-top: -10%;
+    }
+    .row{
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    .about{
+        text-align: center;
+        padding:10%;
+    }
+    .abouttext{
+        color:hsl(208,11%, 55%);
+    }
+    .smallrow{
+        width:90%;
+        margin-bottom: -5%;
+        border-radius:15px;
+    }
+    .space{
+        margin-top: -5%;
+    line-height: 30px;
+    margin-left: -10%;
+    }
+    .center{
+        text-align: center;
+        padding-top:10%;
+    }
+    .smallest{
+        font-size: 15px;
+    }
+    .bgdark{
+        padding: 66px 0px;
+    }
+    .copyright{
+        margin-top: -50%;
+    text-align: center;
     }
 }
