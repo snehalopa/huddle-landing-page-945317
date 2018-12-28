@@ -180,7 +180,7 @@ li{
         width:1280px;
     }
 }
-@media screen and (max-width:375px){
+@media screen and (min-width:300px){
     .container{
         width:80%;
     }
