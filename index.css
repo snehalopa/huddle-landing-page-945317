@@ -37,7 +37,7 @@ h1{
 }
 .rowheader{
     width:90%;
-    
+    padding-top:2%;
     margin:auto;
     
 }
@@ -52,7 +52,7 @@ h1{
 .row{
     width:90%;
     margin:auto;
-    margin-top:2%;
+   
     margin-bottom:2%;
 }
 .rowfooter{
@@ -72,8 +72,8 @@ h1{
 }
 .twocolumns40{
     width:45%;
-    
-    float:left;
+    padding-top:5%;
+    float: left;
 }
 .twocolumns60{
     width:55%;
@@ -92,7 +92,7 @@ h1{
 }
 .headingstatement{
     margin-bottom:5%;
-    padding-right:25%;
+    
 }
 .imagemain{
     width:100%;
@@ -102,7 +102,7 @@ h1{
     width:100%;
 }
 .tryit{
-    background-color: hsl(194, 91%, 65%);; 
+    background-color: white;; 
     border: none;
     color: black;
     text-align: center;
@@ -164,7 +164,7 @@ li{
     margin-top:20%;
 }
 .heading{
-    padding-right:30%;
+    
     font-weight: 600;
 }
 .about{
@@ -229,9 +229,7 @@ li{
     h1{
         font-size: 20px;
     }
-    .rowheader{
-        margin-top:10%;
-    }
+    
     .hustleimage{
         width: 40%;
     }
@@ -297,7 +295,7 @@ li{
         margin-top: 10%;
     }
     .heading{
-        font-size:40px;
+        font-size:30px;
     }
     .headingstatement{
         font-size:22px;
