@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 body{
     margin:0;
     padding:0;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:600');
 h1{
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-p{
-    font-family: 'Open Sans',sans-serif;
-}
+
+/* p,a,li{
+    
+} */
 .container{
     width:100%;
     margin:0 auto;
@@ -18,7 +22,8 @@ p{
 .containerimage{
     width:100%;
     margin:0 auto;
-    background-image: url("bg-hero-desktop.svg")
+    background-image: url("bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
 }
 .containerdark{
     width:100%;
@@ -85,6 +90,10 @@ p{
     
     text-align: right;
 }
+.headingstatement{
+    margin-bottom:5%;
+    padding-right:25%;
+}
 .imagemain{
     width:100%;
     margin:40px auto;
@@ -108,10 +117,10 @@ p{
     border: none;
     color: white;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     cursor: pointer;
     border-radius: 40px;
-    padding: 15px 40px;
+    padding: 15px 70px;
     
 
 }
@@ -146,7 +155,7 @@ li{
     
 }
 .logos{
-    list-style-image: url("placeholder (1).png");
+    list-style-image: url("placeholder (2).png");
 }
 .copyright{
     float: right;
@@ -155,7 +164,7 @@ li{
     margin-top:20%;
 }
 .heading{
-    
+    padding-right:30%;
     font-weight: 600;
 }
 .about{
@@ -168,20 +177,35 @@ li{
 }
 .noline{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .space{
     margin-top:18%;
 }
+.footerwhite{
+    color:white;
+}
+.about{
+    margin-top:15%;
+    padding:10%;
+}
+.abouttext{
+    color:hsl(208,11%, 55%);
+}
+.smaller{
+    font-size: 25px;
+}
+.fluid{
+    width:100% !important;
+}
 
-
-@media screen and (max-width:1400px){
+@media screen and (min-width:1200px){
     .container{
-        width:1280px;
+        width:1200px;
     }
 }
 
-@media screen and (min-width:300px){
+@media screen and (max-width:500px){
     .container{
         width:80%;
     }
@@ -203,7 +227,7 @@ li{
         text-align: center;
     }
     h1{
-        font-size: 28px;
+        font-size: 20px;
     }
     .rowheader{
         margin-top:10%;
@@ -250,7 +274,7 @@ li{
     text-align: center;
     }
 }
-@media screen and (min-width:700px){
+@media screen and (max-width:750px){
     .container{
         width:80%;
     }
