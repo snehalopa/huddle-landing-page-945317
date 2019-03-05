@@ -11,32 +11,34 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Soft Blue: hsl(243, 86%, 85%)
-- Dark Blue: hsl(243, 87%, 12%)
-
-### Accent
-
-- Green: hsl(163, 95%, 43%)
+- Pink: hsl(322, 100%, 66%)
 
 ### Neutral
 
-- Gray: hsl(0, 0%, 50%)
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%)
 
 ## Typography
 
+### Body Copy
+
+- Font size: 18px
+
 ### Headings
 
-- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
-- Weights: 700
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
 
-### Body
+### Body, Call-to-actions
 
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - Weights: 400, 700
 
-## Font Icons
+## Icons
 
-For the icons in the header. Use whichever font icon library you prefer. Below you'll find a couple of options:
+For the social icons, you can use a font icon library. Some suggestions can be found below:
 
 - [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)

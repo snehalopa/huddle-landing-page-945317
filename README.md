@@ -1,6 +1,6 @@
-# Frontend Mentor - Beta sign up split layout
+# Frontend Mentor - Huddle landing page with alternating feature blocks
 
-![Header/intro section for the Beta sign up split layout](./design/desktop-preview.jpg)
+![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
